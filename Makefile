@@ -5,7 +5,7 @@ MAKE=make
 MODULE=ascending_random
 
 modules:
-	echo "start to compile module: "$(MODULE)
+	echo "start to compile module "$(MODULE)
 	$(CC) -g ascending_random.c -o $(MODULE)
 
 clean:
