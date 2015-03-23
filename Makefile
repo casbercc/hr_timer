@@ -7,6 +7,7 @@ MODULE=ascending_random
 modules:
 	echo "starting to compile module "$(MODULE)
 	$(CC) -g ascending_random.c -o $(MODULE)
+	echo "compiling module "$(MODULE)" done"
 
 clean:
 	rm -f $(MODULE)
