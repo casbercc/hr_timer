@@ -4,6 +4,7 @@
 
 #define MAX_WIDTH     256
 #define MAX_ELEMENT     4
+#define MAX_TOTAL	MAX_WIDTH * MAX_ELEMENT
 
 int main(void)
 {
