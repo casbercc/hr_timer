@@ -1,0 +1,3 @@
+[submodule "hr_timer"]
+	path = hr_timer
+	url = git@github.com:casbercc/hr_timer.git
